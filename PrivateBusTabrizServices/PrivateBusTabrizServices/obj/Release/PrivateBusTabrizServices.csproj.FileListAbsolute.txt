@@ -1,0 +1,10 @@
+C:\Users\Administrator\Source\Workspaces\Service\PrivateBusTabrizServices.exe.config
+C:\Users\Administrator\Source\Workspaces\Service\PrivateBusTabrizServices.exe
+C:\Users\Administrator\Source\Workspaces\Service\PrivateBusTabrizServices.pdb
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.ProjectInstaller.resources
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.PrivateBusTabrizServices.resources
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.TestForm.resources
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.exe
+C:\Users\Administrator\Source\Workspaces\ERP\ERP\PrivateBusTabrizServices\obj\Release\PrivateBusTabrizServices.pdb

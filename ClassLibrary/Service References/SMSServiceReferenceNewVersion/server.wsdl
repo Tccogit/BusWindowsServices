@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:smsserver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:smsserver" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:smsserver">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="ListArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="xsd:string[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="sendmultipleresult">
+        <xsd:all>
+          <xsd:element id="uidmulti" name="uidmulti" type="xsd:string" />
+          <xsd:element id="statemulti" name="statemulti" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="sendmultipleresultarray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:sendmultipleresult[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="sendresult">
+        <xsd:all>
+          <xsd:element id="uid" name="uid" type="xsd:string" />
+          <xsd:element id="state" name="state" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="sendresultarray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:sendresult[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="deliverstatus">
+        <xsd:all>
+          <xsd:element id="uidgetstatus" name="uidgetstatus" type="xsd:string" />
+          <xsd:element id="stategetstatus" name="stategetstatus" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="deliverstatusarray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:deliverstatus[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SendMultipleSMSRequest">
+    <wsdl:part name="fromNums" type="tns:ListArray" />
+    <wsdl:part name="toNums" type="tns:ListArray" />
+    <wsdl:part name="messageContents" type="tns:ListArray" />
+    <wsdl:part name="messageTypes" type="tns:ListArray" />
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMultipleSMSResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSRequest">
+    <wsdl:part name="fromNum" type="xsd:string" />
+    <wsdl:part name="toNum" type="tns:ListArray" />
+    <wsdl:part name="messageContent" type="xsd:string" />
+    <wsdl:part name="messageType" type="xsd:string" />
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="unique_ids" type="tns:ListArray" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="smsserverPortType">
+    <wsdl:operation name="SendMultipleSMS">
+      <documentation>send your sms Multiple</documentation>
+      <wsdl:input message="tns:SendMultipleSMSRequest" />
+      <wsdl:output message="tns:SendMultipleSMSResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS">
+      <documentation>send your sms</documentation>
+      <wsdl:input message="tns:SendSMSRequest" />
+      <wsdl:output message="tns:SendSMSResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCredit">
+      <documentation>check your credit</documentation>
+      <wsdl:input message="tns:GetCreditRequest" />
+      <wsdl:output message="tns:GetCreditResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <documentation>get messages delivery status</documentation>
+      <wsdl:input message="tns:GetStatusRequest" />
+      <wsdl:output message="tns:GetStatusResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="smsserverBinding" type="tns:smsserverPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="SendMultipleSMS">
+      <soap:operation soapAction="SendMultipleSMS" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS">
+      <soap:operation soapAction="SendSMS" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCredit">
+      <soap:operation soapAction="GetCredit" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <soap:operation soapAction="GetStatus" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="37.130.202.188" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="smsserver">
+    <wsdl:port name="smsserverPort" binding="tns:smsserverBinding">
+      <soap:address location="http://37.130.202.188/public/class/sms/webservice3/server.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

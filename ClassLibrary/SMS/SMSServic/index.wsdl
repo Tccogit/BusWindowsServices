@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:SMSAPIwsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:SMSAPIwsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:SMSAPIwsdl">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="balanceRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="pass" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="balanceResponse">
+    <wsdl:part name="total" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="sendsmsRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="to" type="xsd:Array" />
+    <wsdl:part name="from" type="xsd:string" />
+    <wsdl:part name="text" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="sendsmsResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="sendmultipleRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="to" type="xsd:Array" />
+    <wsdl:part name="from" type="xsd:Array" />
+    <wsdl:part name="text" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="sendmultipleResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="receiveRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="from" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="receiveResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="BulkIrancelRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="from" type="xsd:string" />
+    <wsdl:part name="message" type="xsd:message" />
+    <wsdl:part name="province" type="xsd:integer" />
+    <wsdl:part name="city" type="xsd:integer" />
+    <wsdl:part name="of" type="xsd:integer" />
+    <wsdl:part name="up" type="xsd:integer" />
+    <wsdl:part name="type" type="xsd:integer" />
+  </wsdl:message>
+  <wsdl:message name="BulkIrancelResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="deliveryreportRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="from" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="deliveryreportResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="getstatusesRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getstatusesResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="StatusBulkIrancellRequest">
+    <wsdl:part name="user" type="xsd:integer" />
+    <wsdl:part name="pass" type="xsd:string" />
+    <wsdl:part name="id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="StatusBulkIrancellResponse">
+    <wsdl:part name="id" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:portType name="webservice PortType">
+    <wsdl:operation name="balance">
+      <documentation>User Balance</documentation>
+      <wsdl:input message="tns:balanceRequest" />
+      <wsdl:output message="tns:balanceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sendsms">
+      <documentation>Send SMS</documentation>
+      <wsdl:input message="tns:sendsmsRequest" />
+      <wsdl:output message="tns:sendsmsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sendmultiple">
+      <documentation>SendMultiple</documentation>
+      <wsdl:input message="tns:sendmultipleRequest" />
+      <wsdl:output message="tns:sendmultipleResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="receive">
+      <documentation>ViewReceive</documentation>
+      <wsdl:input message="tns:receiveRequest" />
+      <wsdl:output message="tns:receiveResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="BulkIrancel">
+      <documentation>ViewBulkIrancel</documentation>
+      <wsdl:input message="tns:BulkIrancelRequest" />
+      <wsdl:output message="tns:BulkIrancelResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deliveryreport">
+      <documentation>Delivery Report</documentation>
+      <wsdl:input message="tns:deliveryreportRequest" />
+      <wsdl:output message="tns:deliveryreportResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getstatuses">
+      <documentation>Statuses Report</documentation>
+      <wsdl:input message="tns:getstatusesRequest" />
+      <wsdl:output message="tns:getstatusesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="StatusBulkIrancell">
+      <documentation>StatusBulkIrancell Report</documentation>
+      <wsdl:input message="tns:StatusBulkIrancellRequest" />
+      <wsdl:output message="tns:StatusBulkIrancellResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="webservice Binding" type="tns:webservice PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="balance">
+      <soap:operation soapAction="urn:SMSAPIwsdl#balance" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendsms">
+      <soap:operation soapAction="urn:SMSAPIwsdl#sendsms" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendmultiple">
+      <soap:operation soapAction="urn:SMSAPIwsdl#sendmultiple" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="receive">
+      <soap:operation soapAction="urn:SMSAPIwsdl#receive" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BulkIrancel">
+      <soap:operation soapAction="urn:SMSAPIwsdl#BulkIrancel" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deliveryreport">
+      <soap:operation soapAction="urn:SMSAPIwsdl#deliveryreport" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstatuses">
+      <soap:operation soapAction="urn:SMSAPIwsdl#getstatuses" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatusBulkIrancell">
+      <soap:operation soapAction="urn:SMSAPIwsdl#StatusBulkIrancell" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SMSAPIwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="webservice ">
+    <wsdl:port name="webservice Port" binding="tns:webservice Binding">
+      <soap:address location="http://sms.mida-co.ir/webservice/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

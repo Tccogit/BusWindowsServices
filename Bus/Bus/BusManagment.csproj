@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79D33258-A0F7-4BCB-A362-510197F1668A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusManagment</RootNamespace>
+    <AssemblyName>BusManagment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>%24/ERP/ERP/Bus</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://erpzarrinderafshtoos.visualstudio.com</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\BusManagment.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArchivedDocuments">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\ArchivedDocuments.dll</HintPath>
+    </Reference>
+    <Reference Include="Automation, Version=2.0.3.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="AUTOMOBILE">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\AUTOMOBILE.dll</HintPath>
+    </Reference>
+    <Reference Include="AVL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLLs\AVL.dll</HintPath>
+    </Reference>
+    <Reference Include="Communication">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="Estates">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Estates.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Finance">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Finance.dll</HintPath>
+    </Reference>
+    <Reference Include="Globals, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Globals.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\dll\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\dll\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.Ribbon.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.Schedule.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.TimeLine.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Janus.Windows.UI.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="JComponents">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\JComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="JJson">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\JJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Legal">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Legal.dll</HintPath>
+    </Reference>
+    <Reference Include="LumiSoft.Net">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\LumiSoft.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagementShares, Version=2.0.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLLs\ManagementShares.dll</HintPath>
+    </Reference>
+    <Reference Include="mCoreLib">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\mCoreLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Meeting">
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Meeting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Rajaei\Bus\bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Service\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AVL\JAVLTransactions.cs" />
+    <Compile Include="AVL\JAVLTransactionsPublic.cs" />
+    <Compile Include="AVL\JBusDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AVL\JBusDetailsForm.Designer.cs">
+      <DependentUpon>JBusDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AVL\AVLTransaction.cs" />
+    <Compile Include="AVL\JOnlineMap.cs" />
+    <Compile Include="Bazras\JBazRas.cs" />
+    <Compile Include="BusEvent\BusEvent.cs" />
+    <Compile Include="BusEvent\BusEventDetailes.cs" />
+    <Compile Include="BusEvent\BusEventDetailesTable.cs" />
+    <Compile Include="BusEvent\BusEventPalceTable.cs" />
+    <Compile Include="BusEvent\BusEventPlace.cs" />
+    <Compile Include="BusEvent\BusEventRegister.cs" />
+    <Compile Include="BusEvent\BusEventRegisterTable.cs" />
+    <Compile Include="BusEvent\BusEventTable.cs" />
+    <Compile Include="BusEvent\EventActivity.cs" />
+    <Compile Include="BusEvent\EventActivityTable.cs" />
+    <Compile Include="Bus\BusDevise\BusInstallAndUnistallDevise.cs" />
+    <Compile Include="Bus\BusDevise\BusInstallAndUnistallDeviseTable.cs" />
+    <Compile Include="Bus\BusFailure\BusFailure.cs" />
+    <Compile Include="Bus\BusFailure\BusFailureTable.cs" />
+    <Compile Include="Bus\BusFailure\BusFailureType.cs" />
+    <Compile Include="Bus\BusPrintReport\BusPrintReport.cs" />
+    <Compile Include="Bus\BusPrintReport\BusPrintReportTable.cs" />
+    <Compile Include="CardBlackList\CardBlackList.cs" />
+    <Compile Include="CardBlackList\CardBlackListTable.cs" />
+    <Compile Include="Card\Card.cs" />
+    <Compile Include="Card\CardTable.cs" />
+    <Compile Include="Dictionary\Dictionary.cs" />
+    <Compile Include="Documents\Document.cs" />
+    <Compile Include="Documents\DocumentDates\DocumentDate.cs" />
+    <Compile Include="Documents\DocumentDates\DocumentDateTable.cs" />
+    <Compile Include="Documents\DocumentDetails\DocumentDetail.cs" />
+    <Compile Include="Documents\DocumentDetails\DocumentDetailTable.cs" />
+    <Compile Include="Documents\DocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\DocumentForm.Designer.cs">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\DocumentTable.cs" />
+    <Compile Include="Documents\PaymentDetails\PaymentDetail.cs" />
+    <Compile Include="Documents\PaymentDetails\PaymentDetailTable.cs" />
+    <Compile Include="Documents\Payment\Payment.cs" />
+    <Compile Include="Documents\Payment\PaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\Payment\PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documents\Payment\PaymentTable.cs" />
+    <Compile Include="Documents\Reports\DocumentReport.cs" />
+    <Compile Include="Documents\Reports\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\Reports\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicDashboard\DynamicDashboard.cs" />
+    <Compile Include="DynamicDashboard\DynamicDashboardTable.cs" />
+    <Compile Include="DynamicDashboard\UserDynamicDashboard.cs" />
+    <Compile Include="DynamicDashboard\UserDynamicDashboardTable.cs" />
+    <Compile Include="EventLog\EventLog.cs" />
+    <Compile Include="Holiday\Holiday.cs" />
+    <Compile Include="Holiday\HolidayTable.cs" />
+    <Compile Include="LineSubsidy\JLineSubsidy.cs" />
+    <Compile Include="LineSubsidy\LineSubsidyTable.cs" />
+    <Compile Include="Line\JAUTFleetLinePoint.cs" />
+    <Compile Include="Line\JAUTFleetLinePointTable.cs" />
+    <Compile Include="Line\JLineDailyTransactionCount.cs" />
+    <Compile Include="Line\JLinePoints.cs" />
+    <Compile Include="Line\JLineDailyTransactionCountTable.cs" />
+    <Compile Include="Line\JLinePointsTable.cs" />
+    <Compile Include="Line\LineServices.cs" />
+    <Compile Include="Line\LineServicesTable.cs" />
+    <Compile Include="NotPayingBus\NotPayingBus.cs" />
+    <Compile Include="NotPayingBus\NotPayingBusTable.cs" />
+    <Compile Include="OnlineReader\OnlineReaderConfig.cs" />
+    <Compile Include="OnlineReader\OnlineReaderConfigTable.cs" />
+    <Compile Include="Query\Query.cs" />
+    <Compile Include="Query\QueryAuto.cs" />
+    <Compile Include="Query\QueryTable.cs" />
+    <Compile Include="Query\QueryTableAuto.cs" />
+    <Compile Include="Reader\JReader.cs" />
+    <Compile Include="Reader\JReaderTable.cs" />
+    <Compile Include="RTPIS\JRTPIS.cs" />
+    <Compile Include="SellerTicket\SellerTicketDevise\SellerTicketDevise.cs" />
+    <Compile Include="SellerTicket\SellerTicketDevise\SellerTicketTable.cs" />
+    <Compile Include="Settings\JBusSettings.cs" />
+    <Compile Include="Settings\JBusSettingsFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\JBusSettingsFrom.Designer.cs">
+      <DependentUpon>JBusSettingsFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shift\Shift.cs" />
+    <Compile Include="Shift\ShiftTable.cs" />
+    <Compile Include="SMSDetails\JSMSDetails.cs" />
+    <Compile Include="SMSDetails\JSMSDetailsTable.cs" />
+    <Compile Include="SMSMaster\JSMSMaster.cs" />
+    <Compile Include="SMSMaster\JSMSMasterTable.cs" />
+    <Compile Include="SMS\JSMS.cs" />
+    <Compile Include="SMS\SMSTable.cs" />
+    <Compile Include="TeltonikaParser\Position.cs" />
+    <Compile Include="TeltonikaParser\Protocol_TeltonikaFMXXXX.cs" />
+    <Compile Include="Transaction\BusTransactionPrint.cs" />
+    <Compile Include="Transaction\BusTransactionPrintTable.cs" />
+    <Compile Include="Transaction\BusOfflineFilesTable.cs" />
+    <Compile Include="Transaction\BusOfflineFiles.cs" />
+    <Compile Include="Transaction\DifferentTicket.cs" />
+    <Compile Include="Transaction\ExtractOfflineReaderFile.cs" />
+    <Compile Include="Transaction\TransactionPublic.cs" />
+    <Compile Include="UnpaidBlackList\UnpaidBlackList.cs" />
+    <Compile Include="UnpaidBlackList\UnpaidBlackListTable.cs" />
+    <Compile Include="WorkOrder\Shift\Shift.cs" />
+    <Compile Include="WorkOrder\Shift\ShiftForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrder\Shift\ShiftForm.Designer.cs">
+      <DependentUpon>ShiftForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrder\Shift\ShiftTable.cs" />
+    <Compile Include="Transaction\JDeviceDB.cs" />
+    <Compile Include="AVL\JOnlineMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AVL\JOnlineMapForm.Designer.cs">
+      <DependentUpon>JOnlineMapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bus\BusDevise\BusDevise.cs" />
+    <Compile Include="Bus\BusDevise\BusDeviseTable.cs" />
+    <Compile Include="BusManagment.cs" />
+    <Compile Include="BusTable.cs" />
+    <Compile Include="Bus\Bus.cs" />
+    <Compile Include="Bus\BusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bus\BusForm.Designer.cs">
+      <DependentUpon>BusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bus\BusTable.cs" />
+    <Compile Include="Bus\OwnerBus\BusOwner.cs" />
+    <Compile Include="Bus\OwnerBus\BusOwnerTable.cs" />
+    <Compile Include="Personel\CertificateType.cs" />
+    <Compile Include="Driver\Driver.cs" />
+    <Compile Include="Driver\DriverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\DriverForm.Designer.cs">
+      <DependentUpon>DriverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\DriverLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\DriverLogForm.Designer.cs">
+      <DependentUpon>DriverLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\DriverLogSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\DriverLogSearch.Designer.cs">
+      <DependentUpon>DriverLogSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\DriverLogTable.cs" />
+    <Compile Include="Driver\DriverSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver\DriverSearch.Designer.cs">
+      <DependentUpon>DriverSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver\DriveTable.cs" />
+    <Compile Include="Fleet\Fleet.cs" />
+    <Compile Include="Fleet\FleetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fleet\FleetForm.Designer.cs">
+      <DependentUpon>FleetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fleet\FleetTable.cs" />
+    <Compile Include="Fleet\FleetType.cs" />
+    <Compile Include="Line\FormLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Line\FormLine.Designer.cs">
+      <DependentUpon>FormLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Line\JLineStationTable.cs" />
+    <Compile Include="Line\Line.cs" />
+    <Compile Include="Line\LineStation.cs" />
+    <Compile Include="Line\LineTable.cs" />
+    <Compile Include="Line\LineType.cs" />
+    <Compile Include="Line\Path.cs" />
+    <Compile Include="Line\PathTable.Cs" />
+    <Compile Include="Nodes\StaticNode.cs" />
+    <Compile Include="Personel\EmplymentType.cs" />
+    <Compile Include="Personel\Personel.cs" />
+    <Compile Include="Personel\PersonelContract\PersonelContract.cs" />
+    <Compile Include="Personel\PersonelContract\PersonelContractTable.cs" />
+    <Compile Include="Personel\PersonelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel\PersonelForm.Designer.cs">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\PersonelTable.cs" />
+    <Compile Include="Personel\SpecificationType.cs" />
+    <Compile Include="Price\Price.cs" />
+    <Compile Include="Price\PriceTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBus.cs" />
+    <Compile Include="Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBusForm.Designer.cs">
+      <DependentUpon>DailyPerformanceRportOnBusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellerTicket\SellerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellerTicket\SellerForm.Designer.cs">
+      <DependentUpon>SellerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellerTicket\SellerOwner.cs" />
+    <Compile Include="SellerTicket\SellerOwnerTable.cs" />
+    <Compile Include="SellerTicket\SellerTicket.cs" />
+    <Compile Include="SellerTicket\SellerTicketTable.cs" />
+    <Compile Include="SellerTicket\SellerTicketType.cs" />
+    <Compile Include="Station\JStationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Station\JStationForm.Designer.cs">
+      <DependentUpon>JStationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Station\JStationSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Station\JStationSearchForm.Designer.cs">
+      <DependentUpon>JStationSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Station\Station.cs" />
+    <Compile Include="Station\StationSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Station\StationSearch.Designer.cs">
+      <DependentUpon>StationSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Station\StationTable.cs" />
+    <Compile Include="Station\StationType.cs" />
+    <Compile Include="Transaction\JTicketTransactions.cs" />
+    <Compile Include="Transaction\Transaction.cs" />
+    <Compile Include="WorkOrder\Tariff\EzamBe.cs" />
+    <Compile Include="WorkOrder\Tariff\EzamBeTable.cs" />
+    <Compile Include="WorkOrder\Tariff\HokmeKar.cs" />
+    <Compile Include="WorkOrder\Tariff\HokmeKarTable.cs" />
+    <Compile Include="WorkOrder\Tariff\ServiceTurn.cs" />
+    <Compile Include="WorkOrder\Tariff\ServiceTurnTable.cs" />
+    <Compile Include="WorkOrder\Tariff\Tariff.cs" />
+    <Compile Include="WorkOrder\Tariff\TariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrder\Tariff\TariffForm.Designer.cs">
+      <DependentUpon>TariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrder\Tariff\TariffTable.cs" />
+    <Compile Include="WorkOrder\Tariff\TarrfiHokmeKarBaseDefine.cs" />
+    <Compile Include="WorkOrder\Tariff\TarrfiHokmeKarBaseDefineTable.cs" />
+    <Compile Include="WorkOrder\Vacation\Vacation.cs" />
+    <Compile Include="WorkOrder\Vacation\VacationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkOrder\Vacation\VacationForm.Designer.cs">
+      <DependentUpon>VacationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrder\Vacation\VacationTable.cs" />
+    <Compile Include="WorkOrder\Vacation\VacationTypes.cs" />
+    <Compile Include="Zone\Zone.cs" />
+    <Compile Include="Zone\ZoneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zone\ZoneForm.Designer.cs">
+      <DependentUpon>ZoneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zone\ZoneTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Accounting\" />
+    <Folder Include="Driver\CertificateType\" />
+    <Folder Include="Driver\Contract\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AVL\JBusDetailsForm.resx">
+      <DependentUpon>JBusDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AVL\JOnlineMapForm.resx">
+      <DependentUpon>JOnlineMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bus\BusForm.resx">
+      <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\DocumentForm.resx">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Payment\PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Reports\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\DriverForm.resx">
+      <DependentUpon>DriverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\DriverLogForm.resx">
+      <DependentUpon>DriverLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\DriverLogSearch.resx">
+      <DependentUpon>DriverLogSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver\DriverSearch.resx">
+      <DependentUpon>DriverSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fleet\FleetForm.resx">
+      <DependentUpon>FleetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Line\FormLine.resx">
+      <DependentUpon>FormLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel\PersonelForm.resx">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBusForm.resx">
+      <DependentUpon>DailyPerformanceRportOnBusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellerTicket\SellerForm.resx">
+      <DependentUpon>SellerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\JBusSettingsFrom.resx">
+      <DependentUpon>JBusSettingsFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrder\Shift\ShiftForm.resx">
+      <DependentUpon>ShiftForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Station\JStationForm.resx">
+      <DependentUpon>JStationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Station\JStationSearchForm.resx">
+      <DependentUpon>JStationSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Station\StationSearch.resx">
+      <DependentUpon>StationSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrder\Tariff\TariffForm.resx">
+      <DependentUpon>TariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrder\Vacation\VacationForm.resx">
+      <DependentUpon>VacationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zone\ZoneForm.resx">
+      <DependentUpon>ZoneForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
+      <Project>{bbac4fc5-d801-4d81-84d0-08c5baad81e0}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

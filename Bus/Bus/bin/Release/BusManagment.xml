@@ -1,0 +1,905 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BusManagment</name>
+    </assembly>
+    <members>
+        <member name="M:BusManagment.AVL.JAVLTransactionsPublic.GetDistance(System.Double,System.Double,System.Double,System.Double,BusManagment.AVL.JAVLTransactionsPublic.MeasureUnits)">
+            <summary>
+            Returns the distance in miles or kilometers of any two
+            latitude / longitude points. (Haversine formula)
+            </summary>
+        </member>
+        <member name="M:BusManagment.AVL.JAVLTransactionsPublic.toRadian(System.Double)">
+            <summary>
+            Convert to Radians.
+            </summary>      
+        </member>
+        <member name="T:BusManagment.AVL.JAVLTransactionsPublic.MeasureUnits">
+            <summary>
+            The distance type to return the results in.
+            </summary>
+        </member>
+        <member name="F:BusManagment.AVL.JBusDetailsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.AVL.JBusDetailsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.AVL.JBusDetailsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BusManagment.AVL.JAVLTransactions.GetDistance(System.Double,System.Double,System.Double,System.Double,BusManagment.AVL.JAVLTransactions.MeasureUnits)">
+            <summary>
+            Returns the distance in miles or kilometers of any two
+            latitude / longitude points. (Haversine formula)
+            </summary>
+        </member>
+        <member name="M:BusManagment.AVL.JAVLTransactions.toRadian(System.Double)">
+            <summary>
+            Convert to Radians.
+            </summary>      
+        </member>
+        <member name="T:BusManagment.AVL.JAVLTransactions.MeasureUnits">
+            <summary>
+            The distance type to return the results in.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.IssueDate">
+            <summary>
+            تاریخ صدور
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.IsClosed">
+            <summary>
+            وضعیت
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.Register_Full_Title">
+            <summary>
+            عنوان ثبت کننده
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.Register_Post_Code">
+             <summary>
+            کد  پست سازمانی
+             </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.Register_User_Code">
+            <summary>
+            کد کاربری
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.Description">
+            <summary>
+            شرح
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.AllDates">
+            <summary>
+            همه تاریخ ها
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocument.DocumentCode">
+            <summary>
+            شماره سند
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocumentDate.DocumentCode">
+            <summary>
+            کد سند
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocumentDate.Date">
+            <summary>
+            تاریخ
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTDocumentDate.IsIssued">
+            <summary>
+            این تاریخ صادر شده
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentDateTable.DocumentCode">
+            <summary>
+            کد سند
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentDateTable.Date">
+            <summary>
+            تاریخ
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentDateTable.IsIssued">
+            <summary>
+            این تاریخ صادر شده
+            </summary>
+        </member>
+        <member name="M:BusManagment.Documents.JAUTDocumentDetails.GetBusCredit(System.Int32)">
+            <summary>
+            انتخاب بستانکاری  اتوبوس ها
+            </summary>
+            <param name="pDocumentCode"></param>
+            <returns></returns>
+        </member>
+        <member name="F:BusManagment.Documents.JDocumentForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Documents.JDocumentForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Documents.JDocumentForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:BusManagment.Documents.JAUTDocumentTable.IssueDate" -->
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.IsClosed">
+            <summary>
+            وضعیت
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.Register_Full_Title">
+            <summary>
+            عنوان ثبت کننده
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.Register_Post_Code">
+             <summary>
+            کد  پست سازمانی
+             </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.Register_User_Code">
+            <summary>
+            کد کاربری
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.Description">
+            <summary>
+            شرح
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.AllDates">
+            <summary>
+            همه تاریخ ها
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentTable.DocumentCode">
+            <summary>
+            شماره سند
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTPaymentDetail.PaymentCode">
+            <summary>
+            کد پرداخت
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTPaymentDetail.OwnerPCode">
+            <summary>
+            کد مالک
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTPaymentDetail.BusCode">
+            <summary>
+            کد اتوبوس
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTPaymentDetail.TotalPrice">
+            <summary>
+            مبلغ پرداخت شده
+            </summary>
+        </member>
+        <member name="P:BusManagment.Documents.JAUTPaymentDetail.PaymentPrice">
+            <summary>
+            مبلغ قابل پرداخت
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTPaymentDetailTable.PaymentCode">
+            <summary>
+            کد پرداخت
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTPaymentDetailTable.OwnerPCode">
+            <summary>
+            کد مالک
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTPaymentDetailTable.BusCode">
+            <summary>
+            کد اتوبوس
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTPaymentDetailTable.TotalPrice">
+            <summary>
+            مبلغ پرداخت شده
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTPaymentDetailTable.PaymentPrice">
+            <summary>
+            مبلغ قابل پرداخت
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JPaymentForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Documents.JPaymentForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Documents.JPaymentForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Documents.JAUTDocumentReportForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Documents.JAUTDocumentReportForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Documents.JAUTDocumentReportForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.JSellerTicketDevise.StartDate">
+            <summary>
+            SellerTicekt Code
+            </summary>
+        </member>
+        <member name="F:BusManagment.Settings.JBusSettingsFrom.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Settings.JBusSettingsFrom.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Settings.JBusSettingsFrom.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BusManagment.Protocol_TeltonikaFMXXXX">
+            <summary>
+            TeltonikaFMXXXX
+            </summary>
+        </member>
+        <member name="M:BusManagment.Transaction.JDifferentTicket.MysqlDatabaseWithSqlServerTransactionDifferences(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pLineNumber">'110,166'</param>
+            <param name="TicketPrice">'200,300'</param>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.TransactionPublic.JTransactions.ConvertNMEAToDecimal(System.Double)">
+            <summary>
+            NMEA Coordinate System To Decimal Coordinate System
+            </summary>
+            <param name="d">NMEA Lat/Long value in dd.mmss Format (Example: 36.2533 (Result: 36 + 25.33/60))</param>
+            <returns>Decimal Lat/Long value in double format.</returns>
+        </member>
+        <member name="T:BusManagment.TransactionPublic.TransactionClass">
+            <summary>
+            Send Transaction to Archice Document for Accounting
+            </summary>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JShift.CheckUsedInTariff">
+            <summary>
+            چک میکند این شیفت در تعرفه ها استفاده شده یا نه
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JShift.Title">
+            <summary>
+            عنوان
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JShift.StartTime">
+            <summary>
+            زمان شروع
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JShift.EndTime">
+            <summary>
+            زمان پایان
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JShiftForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JShiftForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JShiftForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JShiftTable.Title">
+            <summary>
+            عنوان
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JShiftTable.StartTime">
+            <summary>
+            زمان شروع
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JShiftTable.EndTime">
+            <summary>
+            زمان پایان
+            </summary>
+        </member>
+        <member name="F:BusManagment.AVL.JOnlineMapForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.AVL.JOnlineMapForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.AVL.JOnlineMapForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.JBusDevise.StartDate">
+            <summary>
+            Car Code
+            </summary>
+        </member>
+        <member name="P:BusManagment.Bus.JBus.CarCode">
+            <summary>
+            Car Code
+            </summary>
+        </member>
+        <member name="P:BusManagment.Bus.JBus.BUSNumber">
+            <summary>
+            BUS Number
+            </summary>
+        </member>
+        <member name="M:BusManagment.Bus.JBusForm.SaveOwner">
+            <summary>
+            ذخیره مالک
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:BusManagment.Bus.JBusForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Bus.JBusForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Bus.JBusForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Bus.JBusOwner.StartDate">
+            <summary>
+            Car Code
+            </summary>
+        </member>
+        <member name="M:BusManagment.Bus.JBusOwners.GetAllOwners">
+            <summary>
+            
+            </summary>
+            <param name="pBusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Bus.JBusOwners.GetBusOwners(System.Int32)">
+            <summary>
+            دریافت تمامی مالکان اتوبوس ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Bus.JBusOwners.CheckHasOneActiveOwner(System.Int32)">
+            <summary>
+            چک میکند که اتوبوس بیش از یک مالک فعال نداشته باشد
+            </summary>
+            <param name="pBusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="F:BusManagment.Driver.DriverForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Driver.DriverForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Driver.DriverForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Driver.DriverLogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Driver.DriverLogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Driver.DriverLogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Driver.DriverLogSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Driver.DriverLogSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Driver.DriverLogSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Driver.DriverSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Driver.DriverSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Driver.DriverSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Fleet.JFleetForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Fleet.JFleetForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Fleet.JFleetForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Line.FormLine.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Line.FormLine.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Line.FormLine.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Line.JLineNodePath.SCode">
+            <summary>
+            Station Code
+            </summary>
+        </member>
+        <member name="P:BusManagment.Line.JLineNodePath.LCode">
+            <summary>
+            Line Code
+            </summary>
+        </member>
+        <member name="M:BusManagment.Personel.JPersonelForm.SaveContract">
+            <summary>
+            ذخیره مالک
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:BusManagment.Personel.JPersonelForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Personel.JPersonelForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Personel.JPersonelForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BusManagment.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Properties.Resources.Down">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Properties.Resources.Trash">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Properties.Resources.up">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetDatesToIssueDocument">
+            <summary>
+            انتخاب تاریخ ها جهت صدور سند
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetFleetsToIssueDocument">
+            <summary>
+            انتخاب ناوگان ها جهت صدور سند - ناوگان ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetYearDatesToIssueDocument(System.Int32)">
+            <summary>
+            انتخاب تاریخ ها جهت صدور سند - سال ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetMonthDatesToIssueDocument(System.Int32,System.Int32)">
+            <summary>
+            انتخاب تاریخ ها جهت صدور سند - ماه ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetFullDatesToIssueDocument(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            انتخاب تاریخ ها جهت صدور سند - تاریخ کامل بر اساس سال و ماه
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.GetDriversReportByDate(System.DateTime[],System.Int32[])">
+            <summary>
+            خروجی گزارش بر اساس تاریخ ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Reports.JDailyPerformanceRportOnBus.SetReportDocumentCode(ClassLibrary.JDataBase,System.DateTime[],System.Int32[],System.Int32,System.Int32)">
+            <summary>
+            بروزرسانی گزارش جهت درج کد اسناد ارسالی به بانک
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:BusManagment.Reports.DailyPerformanceRportOnBusForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Reports.DailyPerformanceRportOnBusForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Reports.DailyPerformanceRportOnBusForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.SellerTicket.SellerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.SellerTicket.SellerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.SellerTicket.SellerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Station.JStationForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Station.JStationForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Station.JStationForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.Station.JStationSearchForm._SelectedStation">
+            <summary>
+            ایستگاه انتخاب شده
+            </summary>
+        </member>
+        <member name="F:BusManagment.Station.JStationSearchForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Station.JStationSearchForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Station.JStationSearchForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.Station.JStationSearchForm.SelectedStation">
+            <summary>
+            ایستگاه انتخاب شده
+            </summary>
+        </member>
+        <member name="F:BusManagment.Station.StationSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Station.StationSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Station.StationSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Transaction.JTicketTransactions.AddTicketTransactionExtract(BusManagment.Transaction.JTransactionTicketHeader,BusManagment.Transaction.JTransactionTicket,System.Int64,System.String,System.Single,System.Byte[],ClassLibrary.JDataBase,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="TH"></param>
+            <param name="TT"></param>
+            <param name="recordNumber"></param>
+            <param name="Header_IMEI"></param>
+            <param name="Header_BusSerial"></param>
+            <param name="Header_Version"></param>
+            <param name="db"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Transaction.JTransactions.ProcessTicketData(System.Byte[],System.Int64,System.Boolean,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="Data"></param>
+            <param name="pRecordNumber"></param>
+            <param name="pThread"></param>
+        </member>
+        <member name="M:BusManagment.Transaction.JTransactions.RightLeftShift(System.Byte[]@,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="pbyte"></param>
+            <param name="pState">1 is Left and 2 is Right Shift</param>
+            <param name="pLen"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Transaction.JTransactions.UpdateSocketCheckDataAVL(ClassLibrary.JDataBase,System.Int64,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Code"></param>
+            <param name="IsProceced"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BusManagment.Transaction.JTransactions.ConvertNMEAToDecimal(System.Double)">
+            <summary>
+            NMEA Coordinate System To Decimal Coordinate System
+            </summary>
+            <param name="d">NMEA Lat/Long value in dd.mmss Format (Example: 36.2533 (Result: 36 + 25.33/60))</param>
+            <returns>Decimal Lat/Long value in double format.</returns>
+        </member>
+        <member name="T:BusManagment.Transaction.TransactionClass">
+            <summary>
+            Send Transaction to Archice Document for Accounting
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JTariffForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JTariffForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JTariffForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JAUTVacation.DriverPCode">
+            <summary>
+            کد راننده
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JAUTVacation.VacationType">
+            <summary>
+            نوع مرخصی
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JAUTVacation.FromDate">
+            <summary>
+            از تاریخ و ساعت
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JAUTVacation.ToDate">
+            <summary>
+            تا تاریخ وساعت
+            </summary>
+        </member>
+        <member name="P:BusManagment.WorkOrder.JAUTVacation.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JVacationForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JVacationForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.WorkOrder.JVacationForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JAUTVacationTable.DriverPCode">
+            <summary>
+            کد راننده
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JAUTVacationTable.VacationType">
+            <summary>
+            نوع مرخصی
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JAUTVacationTable.FromDate">
+            <summary>
+            از تاریخ و ساعت
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JAUTVacationTable.ToDate">
+            <summary>
+            تا تاریخ وساعت
+            </summary>
+        </member>
+        <member name="F:BusManagment.WorkOrder.JAUTVacationTable.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="F:BusManagment.Zone.JZoneForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BusManagment.Zone.JZoneForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BusManagment.Zone.JZoneForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

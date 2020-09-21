@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibrary.JUC_AttachmentManager">
+    <Position X="1.5" Y="1.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ClassLibrary.JUC_AttachmentManager.Attachment">
+        <TypeIdentifier>
+          <NewMemberFileName>AttachmentManager\UC_AttachmentManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="ClassLibrary.JUC_AttachmentManager.Icons">
+        <TypeIdentifier>
+          <NewMemberFileName>AttachmentManager\UC_AttachmentManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ASYAAokBKHgAAFaSMFSDSFEbQECgAOEABCAIAGAFJgE=</HashCode>
+      <FileName>AttachmentManager\UC_AttachmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="ClassLibrary.AddItem">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>AttachmentManager\UC_AttachmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClassLibrary.UpdateItem" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>AttachmentManager\UC_AttachmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClassLibrary.GetNextID" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttachmentManager\UC_AttachmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClassLibrary.IS_OldFile" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttachmentManager\UC_AttachmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

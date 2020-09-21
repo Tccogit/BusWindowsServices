@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GdiPlusLib.Gdip" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAAAAEAAAAAAAAAAACAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>GdiPlusLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary.InfoForm" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAABAAAACAAAQCMAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary.jfrmScanMain" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="ClassLibrary.jfrmScanMain.Scan" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainFrame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgEAABCgACBAAAACCARCCAABACgAAACAABABAEIA=</HashCode>
+      <FileName>MainFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibrary.PicForm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQSAIAAAACAhGAIBCACAgABCQAIAQIJSAAAAAACAIAA=</HashCode>
+      <FileName>PicForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibrary.BITMAPINFOHEADER" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAQAAABAAIAgAAAAAAAQAAAAABAABEEAAA=</HashCode>
+      <FileName>PicForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.TwProtocol" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.TwUserInterface" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.TwImageInfo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAAAAAAAAAAACAAAAICgBAAAAAAIEAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.TwPendingXfers" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.TwCapability" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwainLib.Twain" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQKQABAAAAwAAggAqAAAAQACFBBABAXiEACQAwAAAg=</HashCode>
+      <FileName>TwainLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TwainLib.TwVersion" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAIAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TwainLib.TwEvent" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TwainLib.TwFix32" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAJAAAAAAAAACAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="TwainLib.TwDG" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwDAT" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAACMAAGMAACAEAAiQAACAgAAIABAAEoAAQIBAJA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwMSG" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBIAAgoAACBAhAAAAAAAEhIkMAaEIgAAIhQUADiQA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwRC" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAQAAAgAAAAAAAAAABAkAAAACAEAAgAAAAIAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwCC" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgOAACAQEQAAAAFAAAABIAAgAIAABRAAQBAAAgAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwOn" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAIAAAAIA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwType" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAIAAAAAAhAAAAAQAUIAAAAAAgkEAABQAAAAE=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwCap" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAABAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAA=</HashCode>
+      <FileName>TwainDefs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TwainLib.TwainCommand" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAACBAAAAAAAIAAIABAAA=</HashCode>
+      <FileName>TwainLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

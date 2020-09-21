@@ -1,0 +1,1746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusManagment.AVL.JAVLTransaction" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>AVL\AVLTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.AVL.JAVLTransactions" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAgAAAAAABAAAAAgAIAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>AVL\JAVLTransactions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.AVL.JAVLTransactionsPublic" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAgAAAAAABAAAAAgAIAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>AVL\JAVLTransactionsPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.AVL.JBusDetailsForm" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAQBCAAABAAAADAAAICAAAAAABAAAEAAQAAAAA=</HashCode>
+      <FileName>AVL\JBusDetailsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.AVL.JOnlineMap" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>AVL\JOnlineMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.AVL.JOnlineMapForm" Collapsed="true">
+    <Position X="23.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAQAiAACAACBSBgACAKAACAAgBIMAEAIAAgUgAACA=</HashCode>
+      <FileName>AVL\JOnlineMapForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bazras.JBazRasService" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAUAAEAgAAAAAAAgpAAAgAIAIAgBIAAAAAAAAAAA=</HashCode>
+      <FileName>Bazras\JBazRas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bazras.JBazRasServices" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bazras\JBazRas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bazras.JBazRasServiceTable" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAgAAAAAAAgJAAAgAAAAAgBIAAAAAAAAAAA=</HashCode>
+      <FileName>Bazras\JBazRas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBus" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwAAEAAEAAAAAAAAQggAAEAEAFAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>Bus\Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBuses" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgARAAEAAAAABACAAAgAACAAAAAAgIgIEAIAAIA=</HashCode>
+      <FileName>Bus\Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBusForm" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cBSIENoFIXCYRlCIVQSYCAAiBKBoXS4SAvAIAQgRBEA=</HashCode>
+      <FileName>Bus\BusForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBusTable" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAgAAAAAAABAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>Bus\BusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBusOwner" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAEAAQAAAAEAAgAAAgAAEAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Bus\OwnerBus\BusOwner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Bus.JBusOwners" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAABAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAg=</HashCode>
+      <FileName>Bus\OwnerBus\BusOwner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusDevise" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAQAAAAAAAgAAAkAAEAAACgAAAAAEAAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusDevices" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusDeviseTable" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAkAAAAAACgAAAAAEAAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusDeviseTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusInstallAndUnistallDevise" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAEEAAwAAAAAAAgAAAEAAEAAACAAQAAAABAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusInstallAndUnistallDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusInstallAndUnistallDevises" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusInstallAndUnistallDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusInstallAndUnistallDeviseTable" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAwAAAAAAAAAAAEAAAAAACAAQAAAABAAAA=</HashCode>
+      <FileName>Bus\BusDevise\BusInstallAndUnistallDeviseTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusFailure" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAEEAAwAAAAAAAgAAAAIAEgAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusFailure\BusFailure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusFailures" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusFailure\BusFailure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusFailureTable" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAwAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusFailure\BusFailureTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusFailureType" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusFailure\BusFailureType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusFailureTypes" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusFailure\BusFailureType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusPrintReport" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAwAggAAAgAAECAAAAAAAABkGAAAA=</HashCode>
+      <FileName>Bus\BusPrintReport\BusPrintReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusPrintReports" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus\BusPrintReport\BusPrintReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusPrintReportTable" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAgAAAAgAAACAAAAAAAABkCAAAA=</HashCode>
+      <FileName>Bus\BusPrintReport\BusPrintReportTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JOwnerTable" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAAAAEAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Bus\OwnerBus\BusOwnerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusManagment" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>BusManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JStaticNode" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAABAABgAAAAAAAAAAAAAAAgIAAAA=</HashCode>
+      <FileName>Nodes\StaticNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JSellerTicketDevise" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAACAAAAAAAgAAAkAAEAAACgAAAAAEAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketDevise\SellerTicketDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JSellerTicketDevises" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketDevise\SellerTicketDevise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JSellerTicketTable" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAkAAAAAACgAAAAAEAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketDevise\SellerTicketTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Position" Collapsed="true">
+    <Position X="25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoCACAEACIAAACEACIAAACBEIgAGAAAlgFAAAAEAQA=</HashCode>
+      <FileName>TeltonikaParser\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Protocol_TeltonikaFMXXXX" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICIAADIAQAAAGAHAAABABCACAAEiAEAAAAABAgIAAQA=</HashCode>
+      <FileName>TeltonikaParser\Protocol_TeltonikaFMXXXX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusOfflineFiles" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACEAEEAAQAAAAAAAgAAAAAQEAAAABAIIAgAAAAAA=</HashCode>
+      <FileName>Transaction\BusOfflineFiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusOfflineFileses" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\BusOfflineFiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusOfflineFilesTable" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAQAAAAAAAAAAAAAQAAAAABAIIAgAAAAAA=</HashCode>
+      <FileName>Transaction\BusOfflineFilesTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusTransactionPrint" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAUAAEAARAAAAAAAgAAAAAAECAAAAAAAAhAABAAA=</HashCode>
+      <FileName>Transaction\BusTransactionPrint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusTransactionPrints" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\BusTransactionPrint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.JBusTransactionPrintTable" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAARAAAAAAAAAAAAAAACAAAAAAAAhAABAAA=</HashCode>
+      <FileName>Transaction\BusTransactionPrintTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEvent" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAEAAEAAAAAAAAAAgAAQAEAEAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>BusEvent\BusEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEvents" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BusEvent\BusEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventDetailes" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAEAAAAAAAAAAgAAQAEgEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventDetailes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventDetailess" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BusEvent\BusEventDetailes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.BusEventDetailesTable" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventDetailesTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.BusEventPalceTable" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACEAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventPalceTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventPlace" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQIAEAAGEAAAAAAAAAoAAQAEAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventPlaces" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BusEvent\BusEventPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventRegister" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAEGAAQAAAAAAAgAAAgMAMgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JBusEventRegisters" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>BusEvent\BusEventRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.BusEventRegisterTable" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECAAQAAAAAAAAAAAgIAIgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BusEvent\BusEventRegisterTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.BusEventTable" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>BusEvent\BusEventTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JEventActivity" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAEAAAgAAAAAgEAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\EventActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.JEventActivitys" Collapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\EventActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.BusEvent.EventActivityTable" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BusEvent\EventActivityTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AUTOMOBILE.BusTable" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>BusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Card.JCard" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAAAAgAAAAAAEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Card\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Card.JCards" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Card.CardTable" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Card\CardTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.CardBlackList.JCardBlackList" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAgAAAAAAEAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>CardBlackList\CardBlackList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.CardBlackList.JCardBlackLists" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardBlackList\CardBlackList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.CardBlackList.CardBlackListTable" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>CardBlackList\CardBlackListTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Dictionary.JDictionary" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAAAAAAAQAAAEAAAAABAAACAAAAAA=</HashCode>
+      <FileName>Dictionary\Dictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Dictionary.JDictionaries" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dictionary\Dictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocument" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAMkAEAAgEAAAAAAgAAABEAEAAEQAAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocuments" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAQAIAAAA=</HashCode>
+      <FileName>Documents\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDate" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAEAAAgAAAAAAACAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\DocumentDates\DocumentDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDates" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documents\DocumentDates\DocumentDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDateTable" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\DocumentDates\DocumentDateTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDetail" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAQABAAAAAgEACQAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\DocumentDetails\DocumentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDetails" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIAAAAAAAAACAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documents\DocumentDetails\DocumentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentDetailTable" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQABAAAAAAEACQAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\DocumentDetails\DocumentDetailTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JDocumentForm" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAACAUAHEAAACAAAAGAIAARAgAAKEQEQIAAQA=</HashCode>
+      <FileName>Documents\DocumentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentTable" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAgEAAAAAAAAAABAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>Documents\DocumentTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPayment" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAMkAEAEgAAAAAAAgAAABEAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documents\Payment\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPayments" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Documents\Payment\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JPaymentForm" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgCgQQBAAAACAAAACAAAAUAgAAKAQESIBARQ=</HashCode>
+      <FileName>Documents\Payment\PaymentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPaymentTable" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAEgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documents\Payment\PaymentTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPaymentDetail" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAASAAAAAAAgAAAQAAAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Documents\PaymentDetails\PaymentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPaymentDetails" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documents\PaymentDetails\PaymentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTPaymentDetailTable" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAASAAAAAAAAAAAQAAAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Documents\PaymentDetails\PaymentDetailTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentReport" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADEAAABAEAAAAAAAAAEAAAgAAAAAgAACAAAQAIACAAA=</HashCode>
+      <FileName>Documents\Reports\DocumentReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Documents.JAUTDocumentReportForm" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAABAAAACAACACAAAAQAAiAKABAwIACAI=</HashCode>
+      <FileName>Documents\Reports\ReportForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.JDriver" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQACEAAEAABAAAAAAAgAAgAMAEAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Driver\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.JDriverse" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAACAAIAAAA=</HashCode>
+      <FileName>Driver\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.JDriverLog" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAAEAAEAAAAAAAAAAgAAAAEAEAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Driver\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.JDriverseLogs" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAICAAABAAAABAAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Driver\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.DriverForm" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgGAAMSBACAEQRYKAACgCAgioKBARFAiAKAAAQgBBEQ=</HashCode>
+      <FileName>Driver\DriverForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.DriverLogForm" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBBASAAAhAAAACgCAACAAACRBAAAIAAAQAAAEA=</HashCode>
+      <FileName>Driver\DriverLogForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.DriverLogSearch" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAACAAARAAAACAAAAGAAAARAABAIACAQAAAAA=</HashCode>
+      <FileName>Driver\DriverLogSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.JDriverLogTable" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Driver\DriverLogTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.DriverSearch" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIQAAAACgAARAAAACAAAAGAAAAAFABAKAAAQAAAAQ=</HashCode>
+      <FileName>Driver\DriverSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Driver.DriveTable" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAABAAAAAAAAAAgAIAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Driver\DriveTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.DynamicDashboard.JDynamicDashboard" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAEAAEAAAgEAAAAAgAAAAEAEAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>DynamicDashboard\DynamicDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.DynamicDashboard.JDynamicDashboards" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>DynamicDashboard\DynamicDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.DynamicDashboard.DynamicDashboardTable" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAgEAAAAAAAAAAAAAAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>DynamicDashboard\DynamicDashboardTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.DynamicDashboard.UserDynamicDashboardTable" Collapsed="true">
+    <Position X="26.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DynamicDashboard\UserDynamicDashboardTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.UserDynamicDashboard.JUserDynamicDashboard" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAEAAEAAAgEAAAAAgAAAAEAEAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>DynamicDashboard\UserDynamicDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.UserDynamicDashboard.JUserDynamicDashboards" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>DynamicDashboard\UserDynamicDashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.EventLog.JEventLog" Collapsed="true">
+    <Position X="25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAFAAAAkAAAAgCQgAAEAgAAAgAAAAAAAAAAAAiA=</HashCode>
+      <FileName>EventLog\EventLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.JFleet" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQAAEAAEAAAAAAAAAAgAAQgEAEAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Fleet\Fleet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.JFleets" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Fleet\Fleet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.JFleetForm" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACIQBACAQABAAACCgCAACAAEARAAAAIAAEQAAAEQ=</HashCode>
+      <FileName>Fleet\FleetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.FleetTable" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Fleet\FleetTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.JFleetType" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fleet\FleetType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Fleet.JFleetTypes" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fleet\FleetType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Holiday.JHoliday" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAggAAAAAAAgAAAAAAEAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>Holiday\Holiday.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Holiday.HolidayTable" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>Holiday\HolidayTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.FormLine" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>96jBIrCBCCiaQJZQAgCxywZCTCJYVxgiAuBgoYJZEkA=</HashCode>
+      <FileName>Line\FormLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JAUTFleetLinePoint" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABgAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Line\JAUTFleetLinePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JAUTFleetLinePoints" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\JAUTFleetLinePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JAUTFleetLinePointTable" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Line\JAUTFleetLinePointTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineDailyTransactionCount" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAEAAEAAAAAAAAAAgAAAAAAEAAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>Line\JLineDailyTransactionCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineDailyTransactionCounts" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\JLineDailyTransactionCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineDailyTransactionCountTable" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Line\JLineDailyTransactionCountTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLinePoint" Collapsed="true">
+    <Position X="26.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAEAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Line\JLinePoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLinePoints" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAgAABAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\JLinePoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLinePointsTable" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Line\JLinePointsTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineStationTable" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABAAEAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\JLineStationTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLine" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQIIEgMEAAAAAAAAAAoAAIAEIFAAABAAAAAgBACAAA=</HashCode>
+      <FileName>Line\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLines" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAAACAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Line\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineServices" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQAAEAAEAAAAAAAAAAhAAAAEAEAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Line\LineServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineServicess" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Line\LineServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.LineServicesTable" Collapsed="true">
+    <Position X="18" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Line\LineServicesTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineStation" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAEAAAAAABAAEAABgAAAAAEMAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Line\LineStation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineStations" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Line\LineStation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.LineTable" Collapsed="true">
+    <Position X="19.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgMAAAAAAAAAAAIAAIAEABAAABAAAAAgBACAAA=</HashCode>
+      <FileName>Line\LineTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineType" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\LineType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineTypes" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\LineType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineNodePath" Collapsed="true">
+    <Position X="23.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAEAAEIAAAAAAAAAgAAAAEAEQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\Path.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JLineNodePathse" Collapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Line\Path.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.JPathPath" Collapsed="true">
+    <Position X="26.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\Path.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Line.PathTable" Collapsed="true">
+    <Position X="23.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line\PathTable.Cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.NotPayingBus.JNotPayingBus" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAQAAAAAAAgAAAAAAEAAEAAAAAABAABAAA=</HashCode>
+      <FileName>NotPayingBus\NotPayingBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.NotPayingBus.JNotPayingBuses" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotPayingBus\NotPayingBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.NotPayingBus.NotPayingBusTable" Collapsed="true">
+    <Position X="21.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>NotPayingBus\NotPayingBusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JCertificateType" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\CertificateType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JCertificateTypes" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\CertificateType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JEmploymentType" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\EmplymentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JEmploymentTypes" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\EmplymentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonel" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAEAABBBAAAAAgAAgAMAFAgAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Personel\Personel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonels" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Personel\Personel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonelContract" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEEAEAAAAAAAAAAgAAAgAAEAgAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Personel\PersonelContract\PersonelContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonelContracts" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\PersonelContract\PersonelContract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonelContractTable" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Personel\PersonelContract\PersonelContractTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonelForm" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwCEENKAIDCRZJQKUBSAAAAioARgTIgiAKAQQQCBBAA=</HashCode>
+      <FileName>Personel\PersonelForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JPersonelTable" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBBAAAAAAAAgAIABAgAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Personel\PersonelTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JSpecificationType" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\SpecificationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Personel.JSpecificationTypes" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personel\SpecificationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Price.JPrice" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQAAEAAEQAAAAAAACAgAAAAMEEgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Price\Price.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Price.JPrices" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAACAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Price\Price.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Price.PriceTable" Collapsed="true">
+    <Position X="26.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAAAAACAAAAAAIAAgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Price\PriceTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAABEAAAAQAIAAAAAAAAAgAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.JQuery" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAAAAgAQQAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.JQueries" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.JQueryAutoAuto" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAQAAAAAAAoAQQBAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\QueryAuto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.JQueryAutoAutos" Collapsed="true">
+    <Position X="23.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\QueryAuto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.QueryTable" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\QueryTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Query.QueryTableAuto" Collapsed="true">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAIAQQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\QueryTableAuto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Reports.JDailyPerformanceRportOnBus" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQAAAAAAQAQAAAAAAAgAAAMABBAgBBBABAQAQAgAAQ=</HashCode>
+      <FileName>Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Reports.DailyPerformanceRportOnBusForm" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQDAEAAAAKQAABABAACAAAgCAAAAgAAggAAAAQIBBAI=</HashCode>
+      <FileName>Reports\DailyPerformanceReportOnBus\DailyPerformanceRportOnBusForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.RTPIS.JRTPIS" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RTPIS\JRTPIS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.RTPIS.JRTPISUpdate" Collapsed="true">
+    <Position X="26.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAACAAAAAAAAAAIAAIIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RTPIS\JRTPIS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.RTPIS.JRTPISUpdateTable" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RTPIS\JRTPIS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.SellerForm" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NwChYIABsCiRQJQAAgCQiAACEAE4RQwgBqAGAwCBBEQ=</HashCode>
+      <FileName>SellerTicket\SellerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerOwner" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEEAEAgAAAAAAAAgAAAgAAEAAAAgAAAAAEAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerOwner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerOwners" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerOwner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTicketOwnerTable" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAAAAAAAAAAAAgAAAAAAAgAAAAAEAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerOwnerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTicket" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAIEAAEAAAgAAAAAAgAAAAEEkAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTickets" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTicketTable" Collapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAAAAAAAAEgAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTicketType" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SellerTicket.JSellerTicketTypes" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SellerTicket\SellerTicketType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Settings.JBusSettings" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\JBusSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Settings.JBusSettingsFrom" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAABAAAACAAAACACAAABAQAAAAAYIAAAA=</HashCode>
+      <FileName>Settings\JBusSettingsFrom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Shift.JShift" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAEAAAAAgAAAgIAEgAEAAAAAAAEAAAAA=</HashCode>
+      <FileName>Shift\Shift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Shift.JShifts" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shift\Shift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Shift.ShiftTable" Collapsed="true">
+    <Position X="12.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAgIAAgAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Shift\ShiftTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SMS.JSMS" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAEAAAAChQAAABAAgABUAAAgAAACAAAAACAAAAAA=</HashCode>
+      <FileName>SMS\JSMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.SMS.JSMSTable" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAChQAAABAAgABUAAAgAAACAAAAACAAAAAA=</HashCode>
+      <FileName>SMS\SMSTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStationForm" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwGABIQBoDAABBRAQCCgCAACEAEIRJAAAMAIA4AFFEY=</HashCode>
+      <FileName>Station\JStationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStationSearchForm" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAAACEQAACAAAAAAAAAAAABQAAAAA=</HashCode>
+      <FileName>Station\JStationSearchForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStation" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQIAEAAEiAAAAAAAAAgAAQAEEFAIEACBFAAAAAAAAA=</HashCode>
+      <FileName>Station\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStations" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAABAAAAAgACAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Station\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.StationSearch" Collapsed="true">
+    <Position X="14.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAACCAAgBAgAACAAAACAAAARAAhAIAAAQAAAAI=</HashCode>
+      <FileName>Station\StationSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.StationTable" Collapsed="true">
+    <Position X="16.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAiAAAAAAAAAAAAQAAEBAIEACBFAAAAAAAAA=</HashCode>
+      <FileName>Station\StationTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStationType" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Station\StationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Station.JStationTypes" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Station\StationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JDifferentTicket" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\DifferentTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JDeviceDB" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\JDeviceDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTicketTransactions" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAABAAAhAAAAAAAAAAAAgQAAgQEAAAACAACIAAAAA=</HashCode>
+      <FileName>Transaction\JTicketTransactions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionHeader" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQwAAAAAAAAAAAAACIAAEAAAAAAAAAAg=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionTicketHeader" Collapsed="true">
+    <Position X="23.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAIAAgAAAACAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionTicket" Collapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAKAAIgAASCAAgCAABQgAAACAIAABAABAARA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionTicketOffline" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANUAAAAAAQAAAAAAAAAIAgAAAAgAAASAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionAVLHeader" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAMAAAAAgAAAAAAAAAAAAACAAAAABEAAIAAQAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactionAVL" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACACIgAgAAAAAAABAAgAAAAAAIAAAAAAAUA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.JTransactions" Collapsed="true">
+    <Position X="18" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hEARYEAoAIEkAgACRgAggAK1MgEIQAQgAgRBAACACII=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Transaction.TransactionClass" Collapsed="true">
+    <Position X="23.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionHeader" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQwAAAAAAAAAAAAACIAAEAAAAAAAAAAg=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionTicketHeader" Collapsed="true">
+    <Position X="25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAIBAgAAAACAACAAAEAAAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionTicket" Collapsed="true">
+    <Position X="19.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAACAAgAAAAAgAAAAAIAAAAAAAAQA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionTicketOffline" Collapsed="true">
+    <Position X="26.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANUAAAAAAQAAAAAAAAAIAgAAAAgAAASAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionAVLHeader" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAAAAgAAAAAAAAAAAAACAAAAABEAAIAAQAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactionAVL" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACIgAgAAAAAAABAAgAAAAAAIAAAAAAAQA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.JTransactions" Collapsed="true">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAwAIAkACAABAQAAACVEAAAVAAAAoAAAACAAQA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.TransactionPublic.TransactionClass" Collapsed="true">
+    <Position X="21.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.UnpaidBlackList.JUnpaidBlackList" Collapsed="true">
+    <Position X="2.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAEAAEAAAAAAAAAAgAAAAAAEAAAAAgAAABAEBAAA=</HashCode>
+      <FileName>UnpaidBlackList\UnpaidBlackList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.UnpaidBlackList.UnpaidBlackListTable" Collapsed="true">
+    <Position X="25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAEBAAA=</HashCode>
+      <FileName>UnpaidBlackList\UnpaidBlackListTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JShift" Collapsed="true">
+    <Position X="23.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAMAAAAEAAAAAgAAAAMAEgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Shift\Shift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JShifts" Collapsed="true">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Shift\Shift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JShiftForm" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAQABAAAACAAAACAAAARAgCBKIAAQAAAAA=</HashCode>
+      <FileName>WorkOrder\Shift\ShiftForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JShiftTable" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAIAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Shift\ShiftTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JEzamBe" Collapsed="true">
+    <Position X="26.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBwAAEACEAAAAAAAAABgAAAAMAMEAAAAIICAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\EzamBe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JEzamBes" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\EzamBe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.EzamBeTable" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAACAAAAAAAAAAAAAAAAIAIEAAAAIICAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\EzamBeTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JHokmeKar" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQIAEAEEAQAAAAABgggAAAgEANAAEABAAAAAEIAAIA=</HashCode>
+      <FileName>WorkOrder\Tariff\HokmeKar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JHokmeKars" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\HokmeKar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.HokmeKarTable" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAAEAAQAAAAABgggAAAgAAJAAAABAAAAAEIAAIA=</HashCode>
+      <FileName>WorkOrder\Tariff\HokmeKarTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JTariff" Collapsed="true">
+    <Position X="23.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQAAEAIEAAQAAAAAAChABggMAFgAABJAAAAAEIAAIA=</HashCode>
+      <FileName>WorkOrder\Tariff\Tariff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JTariffs" Collapsed="true">
+    <Position X="26.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\Tariff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JTariffForm" Collapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAIRQACCABDAAAACACAASAAAARNgAALACAQAAEEA=</HashCode>
+      <FileName>WorkOrder\Tariff\TariffForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.TariffTable" Collapsed="true">
+    <Position X="18" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIAAAQAAAAAAChAAgAIABgAABJAAAAAAIAAIA=</HashCode>
+      <FileName>WorkOrder\Tariff\TariffTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JTarrfiHokmeKarBaseDefine" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SBQAAEAAEAAAAAAAAgAhAAAgEAFAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\TarrfiHokmeKarBaseDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JTarrfiHokmeKarBaseDefines" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\TarrfiHokmeKarBaseDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.TarrfiHokmeKarBaseDefineTable" Collapsed="true">
+    <Position X="19.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAAAAAAAAAAAgABAAAgAABAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>WorkOrder\Tariff\TarrfiHokmeKarBaseDefineTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JAUTVacation" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAEEAAgAAAAAAAgAAAAEAMAAAAAAAAABAABAAA=</HashCode>
+      <FileName>WorkOrder\Vacation\Vacation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JAUTVacations" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Vacation\Vacation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JVacationForm" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAACCAFBAAAACAAAgSIAAIRAgAAIAAQQAAAAI=</HashCode>
+      <FileName>WorkOrder\Vacation\VacationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JAUTVacationTable" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAAAAAAAAAAAAIAAAAAAAAABAABAAA=</HashCode>
+      <FileName>WorkOrder\Vacation\VacationTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JVacationType" Collapsed="true">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Vacation\VacationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.JVacationTypes" Collapsed="true">
+    <Position X="11" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkOrder\Vacation\VacationTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.Tariff.ServiceTurn" Collapsed="true">
+    <Position X="9.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAAAggAAAAAAEAAQAAAAAABAABQAA=</HashCode>
+      <FileName>WorkOrder\Tariff\ServiceTurn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.WorkOrder.Tariff.ServiceTurnTable" Collapsed="true">
+    <Position X="11" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAABAABQAA=</HashCode>
+      <FileName>WorkOrder\Tariff\ServiceTurnTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Zone.JZone" Collapsed="true">
+    <Position X="12.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAEAAigAAAAAAgAAQAEAEgAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Zone\Zone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Zone.JZones" Collapsed="true">
+    <Position X="16.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAABAAAAAgAAACAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Zone\Zone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Zone.JZoneForm" Collapsed="true">
+    <Position X="14.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAIIABACAAABAAACCgCAACAAAARBAAAIAAAUABBEQ=</HashCode>
+      <FileName>Zone\ZoneForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusManagment.Zone.ZoneTable" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAigAAAAAAAAAQAAAAgAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Zone\ZoneTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BusManagment.Transaction.AVLStruct" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAoAAAAADAAgQIAAAIIAAAAAAQAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BusManagment.TransactionPublic.BusTicketRecord" Collapsed="true">
+    <Position X="2.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAgAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BusManagment.Driver.JDriverLogType" Collapsed="true">
+    <Position X="0.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusManagment.Transaction.JTransactionErrorType" Collapsed="true">
+    <Position X="2.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAEAwAAAAAAAAAAAASAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusManagment.Transaction.JTransactionType" Collapsed="true">
+    <Position X="5.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusManagment.Transaction.SocketDataState" Collapsed="true">
+    <Position X="9.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAUAAAAAAAAAAAAAAAAAEDAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Transaction\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusManagment.TransactionPublic.JTransactionErrorType" Collapsed="true">
+    <Position X="4" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAEAwAAAAAAAAAAAASAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusManagment.TransactionPublic.JTransactionType" Collapsed="true">
+    <Position X="7.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Transaction\TransactionPublic.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

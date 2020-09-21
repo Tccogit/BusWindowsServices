@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateBusTabrizServices", "PrivateBusTabrizServices.csproj", "{7C573D10-F68A-480A-9988-0804B9BFEAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusManagment", "..\Bus\BusManagment.csproj", "{79D33258-A0F7-4BCB-A362-510197F1668A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary.csproj", "{BBAC4FC5-D801-4D81-84D0-08C5BAAD81E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchivedDocuments", "..\ArchivedDocuments\ArchivedDocuments.csproj", "{61BAE31E-6CA8-46AF-8233-531488C3F4C2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://erpzarrinderafshtoos.visualstudio.com/
+		SccProjectUniqueName0 = PrivateBusTabrizServices.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = https://erpzarrinderafshtoos.visualstudio.com
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Bus\\BusManagment.csproj
+		SccProjectName1 = ../Bus
+		SccAuxPath1 = https://erpzarrinderafshtoos.visualstudio.com
+		SccLocalPath1 = ..\\Bus
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\ClassLibrary\\ClassLibrary.csproj
+		SccProjectName2 = ../ClassLibrary
+		SccAuxPath2 = https://erpzarrinderafshtoos.visualstudio.com
+		SccLocalPath2 = ..\\ClassLibrary
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\ArchivedDocuments\\ArchivedDocuments.csproj
+		SccProjectName3 = ../ArchivedDocuments
+		SccAuxPath3 = https://erpzarrinderafshtoos.visualstudio.com
+		SccLocalPath3 = ..\\ArchivedDocuments
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C573D10-F68A-480A-9988-0804B9BFEAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C573D10-F68A-480A-9988-0804B9BFEAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C573D10-F68A-480A-9988-0804B9BFEAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C573D10-F68A-480A-9988-0804B9BFEAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D33258-A0F7-4BCB-A362-510197F1668A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D33258-A0F7-4BCB-A362-510197F1668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D33258-A0F7-4BCB-A362-510197F1668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D33258-A0F7-4BCB-A362-510197F1668A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAC4FC5-D801-4D81-84D0-08C5BAAD81E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAC4FC5-D801-4D81-84D0-08C5BAAD81E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAC4FC5-D801-4D81-84D0-08C5BAAD81E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAC4FC5-D801-4D81-84D0-08C5BAAD81E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BAE31E-6CA8-46AF-8233-531488C3F4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BAE31E-6CA8-46AF-8233-531488C3F4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BAE31E-6CA8-46AF-8233-531488C3F4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BAE31E-6CA8-46AF-8233-531488C3F4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
